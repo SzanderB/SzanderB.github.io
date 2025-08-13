@@ -1,111 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Szander Brenner – Portfolio</title>
-  <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Szander Brenner – Portfolio</title>
+<style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      line-height: 1.6;
-      background-color: #f7f7f7;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        background-color: #121212;
+        color: #e0e0e0;
     }
-    header {
-      text-align: center;
-      padding-bottom: 20px;
-    }
-    h1 {
-      margin-bottom: 5px;
-    }
-    h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 5px;
-    }
-    .project {
-      background: white;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 8px;
-      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-    }
-    .skills {
-      font-size: 0.9em;
-      color: #666;
+    h1, h2, h3 {
+        color: #ffffff;
     }
     a {
-      color: #007acc;
-      text-decoration: none;
+        color: #80cbc4;
+        text-decoration: none;
     }
     a:hover {
-      text-decoration: underline;
+        text-decoration: underline;
     }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #555;
-      margin-top: 30px;
+    hr {
+        border: 0;
+        border-top: 1px solid #333;
+        margin: 20px 0;
     }
-  </style>
+    .project {
+        margin-bottom: 25px;
+    }
+    .skills {
+        font-style: italic;
+        color: #b0bec5;
+    }
+    header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    header h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+</style>
 </head>
 <body>
 
 <header>
-  <h1>Szander Brenner</h1>
-  <p>Electrical Engineer & Embedded Systems Developer</p>
+    <h1>Szander Brenner – Electrical Engineer & Embedded Systems Developer</h1>
+    <p>I’m a 5th-year senior electrical engineering student interested in embedded systems, robotics, and digital design.</p>
+    <p>Here’s a selection of my work:</p>
 </header>
+
+<hr>
 
 <h2>Personal Projects</h2>
 
 <div class="project">
-  <h3>Bubble Hockey Scoreboard</h3>
-  <p class="skills"><strong>Skills:</strong> System Design, PCB Design, CAD Design, Embedded Firmware</p>
-  <p>Built a custom scoreboard with goal detection, LEDs, buzzer sounds, mode selection, and reset/start buttons.</p>
-  <p><a href="https://github.com/SzanderB/BubbleHockeyScoreboard">GitHub Repo</a> | <a href="https://youtu.be/nwzQTY0Y3hk">Video Demo</a></p>
+    <h3>Bubble Hockey Scoreboard</h3>
+    <p class="skills">Skills: System Design, PCB Design, CAD Design, Embedded Firmware</p>
+    <p>Built a custom scoreboard with goal detection, external LEDs, buzzer sounds, mode selection, and reset/start buttons.</p>
+    <a href="https://github.com/SzanderB/BubbleHockeyScoreboard">GitHub Repo</a> | 
+    <a href="https://youtu.be/nwzQTY0Y3hk">Video Demo</a>
 </div>
 
 <div class="project">
-  <h3>RF LED Timer Bar</h3>
-  <p class="skills"><strong>Skills:</strong> RF modules, microcontroller firmware, system design with limited resources</p>
-  <p>Designed a wireless LED timing bar for sports training.</p>
-  <p><a href="https://github.com/SzanderB/RF-LED-Timer">GitHub Repo</a> | <a href="https://youtube.com/shorts/uT_QXEIdz4I">Video Demo</a></p>
+    <h3>RF LED Timer Bar</h3>
+    <p class="skills">Skills: RF modules, microcontroller firmware, system design with limited resources</p>
+    <p>Designed and iterated a wireless LED timing bar for sports training.</p>
+    <a href="https://github.com/SzanderB/RF-LED-Timer">GitHub Repo</a> | 
+    <a href="https://youtube.com/shorts/uT_QXEIdz4I">Video Demo</a>
 </div>
+
+<hr>
 
 <h2>School Projects</h2>
 
 <div class="project">
-  <h3>Face Recognition Security Camera</h3>
-  <p class="skills"><strong>Skills:</strong> Embedded RTOS, real-time systems, Facial detection, OpenCV</p>
-  <p>Implemented a security camera that detects and tracks faces using an embedded RTOS.</p>
-  <p><a href="https://github.com/SzanderB/FaceTracker">GitHub Repo</a></p>
+    <h3>Face Recognition Security Camera</h3>
+    <p class="skills">Skills: Embedded RTOS, real-time systems, Facial detection, OpenCV</p>
+    <p>Implemented a security camera that detects and tracks faces using embedded RTOS for task scheduling.</p>
+    <a href="https://github.com/SzanderB/FaceTracker">GitHub Repo</a>
 </div>
 
 <div class="project">
-  <h3>5-Stage MIPS Processor (VHDL)</h3>
-  <p class="skills"><strong>Skills:</strong> VHDL, FPGA design, pipelining</p>
-  <p>Designed and tested a fully pipelined MIPS CPU on an FPGA.</p>
-  <p><a href="https://github.com/SzanderB/mips-vhdl-processor">GitHub Repo</a></p>
+    <h3>5-Stage MIPS Processor (VHDL)</h3>
+    <p class="skills">Skills: VHDL, FPGA design, pipelining</p>
+    <p>Designed and tested a fully pipelined 5-stage MIPS CPU on an FPGA.</p>
+    <a href="https://github.com/SzanderB/mips-vhdl-processor">GitHub Repo</a>
 </div>
 
 <div class="project">
-  <h3>Dino Run Game</h3>
-  <p class="skills"><strong>Skills:</strong> Embedded RTOS, Resource management, Real-time systems</p>
-  <p>Programmed the classic Dino Run game using a custom RTOS.</p>
-  <p><a href="https://github.com/SzanderB/DinoRun">GitHub Repo</a></p>
+    <h3>Dino Run Game</h3>
+    <p class="skills">Skills: Embedded RTOS, Resource management, Real-time systems</p>
+    <p>Programmed the classic dino run game using a custom RTOS.</p>
+    <a href="https://github.com/SzanderB/DinoRun">GitHub Repo</a>
 </div>
+
+<hr>
 
 <h2>In Progress</h2>
-<div class="project">
-  <h3>Automatic Etch A Sketch Drawer</h3>
-  <p>Robot that takes in an image and draws it on an Etch A Sketch.</p>
-</div>
+<p>Automatic Etch A Sketch Drawer – Take in an image and the robot will draw it on the etch a sketch!</p>
 
-<footer>
-  📧 szanderbrenner@gmail.com | 
-  <a href="https://www.linkedin.com/in/szander-brenner/">LinkedIn</a>
-</footer>
+<hr>
+
+<h2>Contact</h2>
+<p>📧 <a href="mailto:szanderbrenner@gmail.com">szanderbrenner@gmail.com</a><br>
+<a href="https://www.linkedin.com/in/szander-brenner/">LinkedIn</a></p>
 
 </body>
 </html>
