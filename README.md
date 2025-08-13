@@ -33,7 +33,7 @@ Implemented a security camera that detects and tracks faces using embedded RTOS 
 ### 5-Stage MIPS Processor (VHDL)
 **Skills:** VHDL, FPGA design, pipelining  
 Designed and tested a fully pipelined 5-stage MIPS CPU on an FPGA.  
-[GitHub Repo](https://github.com/yourusername/mips-vhdl)
+[GitHub Repo](https://github.com/SzanderB/mips-vhdl-processor)
 
 ---
 
