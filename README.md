@@ -50,5 +50,5 @@ Take in an image and the robot will draw it on the etch a sketch!
 ---
 
 ## Contact
-📧 szanderbrenner@gmail.com 
+📧 szanderbrenner@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/szander-brenner/)
