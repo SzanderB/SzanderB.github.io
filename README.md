@@ -8,7 +8,7 @@ Here’s a selection of my work:
 ## Personal Projects
 
 ### Bubble Hockey Scoreboard
-**Skills:** System Design, PCB Design, CAD Design, Embedded Firmware
+**Skills:** System Design, PCB Design, CAD Design, Embedded Firmware  
 Built a custom scoreboard with goal detection, external LEDs, buzzer sounds, mode selection, and reset/start buttons.  
 [GitHub Repo](https://github.com/SzanderB/BubbleHockeyScoreboard) | [Video Demo](https://youtu.be/nwzQTY0Y3hk)
 
@@ -24,12 +24,12 @@ Designed and iterated a wireless LED timing bar for sports training.
 ## School Projects
 
 ### Dino Run Game
-**Skills:** Embedded RTOS, Resource management, Real-time systems
+**Skills:** Embedded RTOS, Resource management, Real-time systems  
 Programmed the classic dino run game using a custom RTOS.  
 [GitHub Repo](https://github.com/SzanderB/DinoRun)
 
 ### Face Recognition Security Camera
-**Skills:** Embedded RTOS, real-time systems, Facial detection, OpenCV
+**Skills:** Embedded RTOS, real-time systems, Facial detection, OpenCV  
 Implemented a security camera that detects and tracks faces using embedded RTOS for task scheduling.  
 [GitHub Repo](https://github.com/SzanderB/FaceTracker)
 
@@ -44,7 +44,7 @@ Designed and tested a fully pipelined 5-stage MIPS CPU on an FPGA.
 
 ## In Progress
 
-### Automatic Etch A Sketch Drawer
+### Automatic Etch A Sketch Drawer  
 Take in an image and the robot will draw it on the etch a sketch!
 
 ---
