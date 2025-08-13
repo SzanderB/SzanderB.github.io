@@ -23,11 +23,6 @@ Designed and iterated a wireless LED timing bar for sports training.
 
 ## School Projects
 
-### Dino Run Game
-**Skills:** Embedded RTOS, Resource management, Real-time systems  
-Programmed the classic dino run game using a custom RTOS.  
-[GitHub Repo](https://github.com/SzanderB/DinoRun)
-
 ### Face Recognition Security Camera
 **Skills:** Embedded RTOS, real-time systems, Facial detection, OpenCV  
 Implemented a security camera that detects and tracks faces using embedded RTOS for task scheduling.  
@@ -39,6 +34,13 @@ Implemented a security camera that detects and tracks faces using embedded RTOS 
 **Skills:** VHDL, FPGA design, pipelining  
 Designed and tested a fully pipelined 5-stage MIPS CPU on an FPGA.  
 [GitHub Repo](https://github.com/yourusername/mips-vhdl)
+
+---
+
+### Dino Run Game
+**Skills:** Embedded RTOS, Resource management, Real-time systems  
+Programmed the classic dino run game using a custom RTOS.  
+[GitHub Repo](https://github.com/SzanderB/DinoRun)
 
 ---
 
