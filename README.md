@@ -25,7 +25,7 @@ Designed and iterated a wireless LED timing bar for sports training.
 
 ### Dino Run Game
 **Skills:** Embedded RTOS, Resource management, Real-time systems
-Programmed the classic dino run game using a custom RTOS.
+Programmed the classic dino run game using a custom RTOS.  
 [GitHub Repo](https://github.com/SzanderB/DinoRun)
 
 ### Face Recognition Security Camera
