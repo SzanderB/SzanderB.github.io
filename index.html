@@ -8,7 +8,7 @@
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
-        max-width: 900px;
+        max-width: 1000px;
         margin: auto;
         padding: 20px;
         background-color: #121212;
@@ -27,28 +27,51 @@
     hr {
         border: 0;
         border-top: 1px solid #333;
-        margin: 20px 0;
-    }
-    .project {
-        margin-bottom: 25px;
-    }
-    .skills {
-        font-style: italic;
-        color: #b0bec5;
+        margin: 30px 0;
     }
     header {
         text-align: center;
         margin-bottom: 40px;
     }
     header h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin-bottom: 10px;
+    }
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 3px solid #80cbc4;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    }
+    .project {
+        margin-bottom: 35px;
+        padding: 20px;
+        background: #1e1e1e;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+        transition: transform 0.2s ease;
+    }
+    .project:hover {
+        transform: scale(1.02);
+    }
+    .project img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .skills {
+        font-style: italic;
+        color: #b0bec5;
     }
 </style>
 </head>
 <body>
 
 <header>
+    <img src="your-face.jpg" alt="Profile Picture" class="profile-pic">
     <h1>Szander Brenner – Electrical Engineer & Embedded Systems Developer</h1>
     <p>I’m a 5th-year senior electrical engineering student interested in embedded systems, robotics, and digital design.</p>
     <p>Here’s a selection of my work:</p>
@@ -59,6 +82,7 @@
 <h2>Personal Projects</h2>
 
 <div class="project">
+    <img src="bubble-hockey.jpg" alt="Bubble Hockey Scoreboard">
     <h3>Bubble Hockey Scoreboard</h3>
     <p class="skills">Skills: System Design, PCB Design, CAD Design, Embedded Firmware</p>
     <p>Built a custom scoreboard with goal detection, external LEDs, buzzer sounds, mode selection, and reset/start buttons.</p>
